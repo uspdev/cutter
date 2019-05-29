@@ -10,9 +10,13 @@ A tabela utilizada foi retirada do endereço http://203.241.185.12/asd/board/Aut
 
 ## Utilização
 
+Essa biblioteca foi testada em Linux Ubuntu 18.04 mas deve funcionar em qualquer sistema sem problemas. Inclusive não requer dependência alguma.
+
 Adicione esta biblioteca ao seu projeto
 
-    composer require uspdev/cutter
+```sh
+composer require uspdev/cutter
+```
 
 Exemplo de teste
 
@@ -27,6 +31,12 @@ echo Cutter::find('Kawabata, Neto').PHP_EOL;
 
 ```
 
+## Teste
 
+Na pasta ```/test``` é feito a busca por alguns nomes. Essa lista não é longa hoje mas será aumentada ao longo do tempo. Para rodar o teste digite na linha de comando
+
+```sh
+php /test/test.php
+```
 
 
