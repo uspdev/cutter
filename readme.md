@@ -33,10 +33,16 @@ echo Cutter::find('Kawabata, Neto').PHP_EOL;
 
 ## Teste
 
-Na pasta ```/test``` é feito a busca por alguns nomes. Essa lista não é longa hoje mas será aumentada ao longo do tempo. Para rodar o teste digite na linha de comando
+Na pasta ```/test``` é feito a busca por alguns nomes e verifica o resultado. Essa lista não é longa hoje mas será aumentada ao longo do tempo. Para rodar o teste digite na linha de comando
 
 ```sh
-php /test/test.php
+php vendor/uspdev/cutter/test/test.php
+```
+
+Se você clonou o projeto no github o caminho para o teste é
+
+```sh
+php test/test.php
 ```
 
 
