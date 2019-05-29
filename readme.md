@@ -52,4 +52,4 @@ Esta biblioteca não trata alguns tipos de palavras nem oferece alternativas.
 Exemplo1. "le fort, gertrud" deveria ser 494 porém retornou 433. Nesse caso o espaço entre "le" e "fort" deve ser suprimido usando a busca "lefort" que retorna o resultado correto.
 
 
-Exemplo 2. "krahl" deveria ser 89 porém retornou 91. Como "krarl" não existe, deve-se adotar o imediatamente anterior na ordem alfabética (89-kr, 91-krau)
+Exemplo 2. "krahl" deveria ser 89 porém retornou 91. Como "krahl" não existe, deve-se adotar o imediatamente anterior na ordem alfabética (89-kr, 91-krau)
