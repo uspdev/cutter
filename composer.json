@@ -2,7 +2,7 @@
     "name": "uspdev/cutter",
     "description": "Retorna o código cutter da string fornecida",
     "type": "library",
-    "license": "GPL-V3",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Masaki Kawabata Neto",
