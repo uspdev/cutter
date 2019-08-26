@@ -1,1 +1,4 @@
 vendor/
+
+# não precisamos do lock nesse projeto
+composer.lock
