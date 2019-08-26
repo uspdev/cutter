@@ -14,5 +14,7 @@
           "Uspdev\\": "src"
         }
       },
-    "require": {}
+    "suggest": {
+        "uspdev/cache": "^0.1.0"
+    }
 }
